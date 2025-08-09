@@ -1,8 +1,7 @@
 {
-  "name": "auto-collapse-reasoning",
-  "display_name": "Auto Collapse Reasoning",
-  "version": "1.0.1",
-  "description": "Keeps reasoning open while streaming, then collapses when the reply finishes.",
-  "entrypoint": "index.js",
-  "requires": ["sillytavern>=1.11.0"]
+  "name": "Auto Collapse Reasoning",
+  "id": "auto-collapse-reasoning",
+  "version": "1.2.2",
+  "description": "Auto-open the reasoning block while a reply streams, then close it when the reply finishes.",
+  "entry": "index.js"
 }
